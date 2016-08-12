@@ -14,7 +14,7 @@ Check out <http://getskeleton.com> for documentation and details.
   
   * [Node.js](http://nodejs.org)
   * [bower](http://bower.io): `[sudo] npm install bower -g`
-  * [grunt.js](http://gruntjs.com): `[sudo] npm install -g grunt-cli`
+  * [gulp.js](http://gulpjs.com): `[sudo] npm install -g gulp-cli`
 
 ### Install Local Dependancies
   * [Download zip](https://github.com/mamboer/Skeleton-Styl/archive/master.zip), [clone the repo](github-mac://openRepo/https://github.com/mamboer/Skeleton-Styl) or `bower install skeleton-styl` from your terminal
