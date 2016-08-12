@@ -1,15 +1,15 @@
 {
-  "name": "skeleton-stylus",
+  "name": "skeleton-styl",
   "version": "2.0.4",
   "description": "The (un)official Stylus Version of Skeleton (2.0.4): A Dead Simple, Responsive Boilerplate for Mobile-Friendly Development",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mamboer/Skeleton-Stylus"
+    "url": "https://github.com/mamboer/Skeleton-Styl"
   },
   "bugs": {
-    "url": "https://github.com/mamboer/Skeleton-Stylus/issues"
+    "url": "https://github.com/mamboer/Skeleton-Styl/issues"
   },
-  "homepage": "https://github.com/mamboer/Skeleton-Stylus",
+  "homepage": "https://github.com/mamboer/Skeleton-Styl",
   "author": "LV <mamboer@gmail.com>  (http://faso.me/)",
   "keywords": [
     "skeleton",

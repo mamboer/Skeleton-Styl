@@ -1,6 +1,6 @@
-# [Skeleton-Sass](http://getskeleton.com)
+# [Skeleton-Styl](http://getskeleton.com)
 
-Skeleton-Sass is the (un)official Sass version of [Dave Gamache's](https://twitter.com/dhg) Skeleton Framework. It currently featues a stable version of Skeleton 2.0.4
+Skeleton-Styl is the (un)official Stylus version of [Dave Gamache's](https://twitter.com/dhg) Skeleton Framework. It currently featues a stable version of Skeleton 2.0.4
 
 -----
 
@@ -11,37 +11,43 @@ Check out <http://getskeleton.com> for documentation and details.
 ## Getting started
 
 ### Install Global Dependancies
+  
   * [Node.js](http://nodejs.org)
   * [bower](http://bower.io): `[sudo] npm install bower -g`
   * [grunt.js](http://gruntjs.com): `[sudo] npm install -g grunt-cli`
 
 ### Install Local Dependancies
-  * [Download zip](https://github.com/whatsnewsaes/Skeleton-Sass/archive/master.zip), [clone the repo](github-mac://openRepo/https://github.com/whatsnewsaes/Skeleton-Sass) or `bower install skeleton-scss` from your terminal
+  * [Download zip](https://github.com/mamboer/Skeleton-Styl/archive/master.zip), [clone the repo](github-mac://openRepo/https://github.com/mamboer/Skeleton-Styl) or `bower install skeleton-styl` from your terminal
   * cd to project folder
   * run `[sudo] npm install` (first time users)
-  * run `grunt` (to watch and compile sass files)
+  * run `gulp` (to watch and compile stylus files)
 
 ### What's in the download?
 
-The download includes Skeleton's CSS, ~~Normalize CSS as a reset,~~ a sample favicon, and an index.html as a starting point.
+The download includes Skeleton's source files and distribution files, ~~ a sample favicon, and an index.html as a starting point.
 
 ```
 skeleton/
 ├── index.html
-├── scss/
-│   └── skeleton.scss
+├── src/
+│   └── skeleton.styl
+├── dist/
+│   └── skeleton.css
+│   └── skeleton.lite.css
 ├── images/
 │   └── favicon.png
 ├── package.json
-├── Gruntfile.js
+├── gulpfile.js
 └── README.md
 
 ```
 
-### Contributions
-The goal of Skeleton-Sass is to have a mirrored Sass repository of Skeleton. In order to keep the integrity of the original Skeleton framework, I cannot accept any features or functionality outside the original implementation of [Dave Gamache's](https://twitter.com/dhg) [Skeleton Framework](https://github.com/dhg/Skeleton). If you would like to see features, functionality, or extensions outside of the original please make a PR / or issue on the original skeleton framework.
+> PLS, `skeleton.css` embeds normalize.css as its reset while `skeleton.lite.css` is a lite version without normalize.css.
 
-If you have sass improvements, additional mixins, or other helpful sass techniques that stay within the original codebase. Feel free to make a pull request!
+### Contributions
+The goal of Skeleton-Styl is to have a mirrored Stylus repository of Skeleton. In order to keep the integrity of the original Skeleton framework, I cannot accept any features or functionality outside the original implementation of [Dave Gamache's](https://twitter.com/dhg) [Skeleton Framework](https://github.com/dhg/Skeleton). If you would like to see features, functionality, or extensions outside of the original please make a PR / or issue on the original skeleton framework.
+
+If you have stylus improvements, additional mixins, or other helpful stylus techniques that stay within the original codebase. Feel free to make a pull request!
 
 ### Why it's awesome
 
@@ -64,7 +70,7 @@ The above list is non-exhaustive. Skeleton works perfectly with almost all older
 
 ## License
 
-All parts of Skeleton-sass are free to use and abuse under the [open-source MIT license](http://opensource.org/licenses/mit-license.php).
+All parts of Skeleton-Styl are free to use and abuse under the [open-source MIT license](http://opensource.org/licenses/mit-license.php).
 
 
 ## Colophon
@@ -76,9 +82,5 @@ Skeleton was built using [Sublime Text 3](http://www.sublimetext.com/3) and desi
 
 Skeleton was created by [Dave Gamache](https://twitter.com/dhg) for a better web.
 
-Skeleton-Sass was created by [Seth Coelen](http://sethcoelen.com) for a better Skeleton.
-
-<a href='https://ko-fi.com?i=2446A87JJ08CZ' target='_blank'>
-<img style='border:0px;width:100px;' src='https://az743702.vo.msecnd.net/cdn/btn1.png' border='0' alt='Buy me a coffee at ko-fi.com' />
-</a> 
+Skeleton-Styl was created by [LV](http://faso.me) for a better Skeleton.
 
