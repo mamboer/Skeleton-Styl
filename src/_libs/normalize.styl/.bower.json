@@ -1,0 +1,21 @@
+{
+  "name": "normalize.styl",
+  "version": "4.1.1",
+  "main": "normalize.styl",
+  "author": [
+    "Nicolas Gallagher",
+    "Mathias Brouilly"
+  ],
+  "ignore": [],
+  "homepage": "https://github.com/bymathias/normalize.styl",
+  "_release": "4.1.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v4.1.1",
+    "commit": "fcd092e295d21303fcf46e0c757bcd3adb985413"
+  },
+  "_source": "https://github.com/bymathias/normalize.styl.git",
+  "_target": "^4.1.1",
+  "_originalSource": "normalize.styl",
+  "_direct": true
+}

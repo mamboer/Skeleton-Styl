@@ -1,0 +1,26 @@
+{
+  "name": "Skeleton-Stylus",
+  "version": "2.0.4",
+  "homepage": "https://github.com/mamboer/Skeleton-Stylus",
+  "authors": [
+    "LV <mamboer@gmail.com> (http://faso.me)"
+  ],
+  "description": "The (un)official Stylus Version of Skeleton (2.0.4): A Dead Simple, Responsive Boilerplate for Mobile-Friendly Development",
+  "main": "src/skeleton.styl",
+  "keywords": [
+    "skeleton",
+    "styl",
+    "stylus",
+    "responsive",
+    "boilerplate"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "normalize.styl": "^4.1.1"
+  }
+}
